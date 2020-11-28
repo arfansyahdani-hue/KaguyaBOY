@@ -56,7 +56,7 @@ module.exports = msgHandler = async (client, message) => {
                 Iv: '[❗] Link yang anda kirim tidak valid!'
             }
         }
-        const apiKey = 'IGJYt4ZA5SQITDx9z9Ca'
+        const apiKey = 'Q70k0Y9YWRSfLfSuhkpf'
 
         const time = moment(t * 1000).format('DD/MM HH:mm:ss')
         const botNumber = await client.getHostNumber()
