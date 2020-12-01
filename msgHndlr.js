@@ -136,7 +136,7 @@ module.exports = msgHandler = async (client, message) => {
             break
         case '!donasi':
         case '!donate':
-            client.sendLinkWithAutoPreview(from, 'https://saweria.co/donate/arfansyahdani', donate)
+            client.sendLinkWithAutoPreview(from, 'https://saweria.co/donate/MhankBarBar', donate)
             break
         case '!tts':
             if (args.length === 1) return client.reply(from, 'Kirim perintah *!tts [id, en, jp, ar] [teks]*, contoh *!tts id halo semua*')
@@ -741,7 +741,7 @@ module.exports = msgHandler = async (client, message) => {
             client.sendFileFromUrl(from, 'http://placekitten.com/'+q3+'/'+q2, 'neko.png','Neko ')
             break
         case '!sendto':
-            client.sendFile(from, './index.js', 'index.js')
+            client.sendFile(from, './msgHndlr.js', 'msgHndlr.js')
             break
         case '!url2img':
             const _query = body.slice(9)
